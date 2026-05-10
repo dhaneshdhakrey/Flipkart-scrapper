@@ -42,3 +42,8 @@ pip install -r requirements.txt
 
 run fast api 
 uvicorn main:app --reload
+
+
+how scrapping  works 
+all flipkart pages have data_id tag in div tag 
+so i use that tag to extract the product card 
